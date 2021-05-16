@@ -8,9 +8,12 @@ int main()
     printf("sizeof(_Bool):        %3lu\n", sizeof(_Bool));
     printf("sizeof(unsigned int): %3lu\n", sizeof(unsigned int)); /* my compiler may permit uint, or not */
     printf("sizeof(short):        %3lu\n", sizeof(short));
+    printf("sizeof(short int):    %3lu\n", sizeof(short int));
     printf("sizeof(long):         %3lu\n", sizeof(long));
+    printf("sizeof(long int):     %3lu\n", sizeof(long int));
     printf("sizeof(float):        %3lu\n", sizeof(float));
     printf("sizeof(double):       %3lu\n", sizeof(double));
+    printf("sizeof(long double):  %3lu\n", sizeof(long double));
 
     return 0;
 }
